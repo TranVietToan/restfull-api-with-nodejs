@@ -10,6 +10,8 @@ app.use(express.urlencoded({ extended: true })); // Cho dữ liệu dạng x-www
 initWebRouter(app);
 initAPIRouter(app);
 
+
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 });
